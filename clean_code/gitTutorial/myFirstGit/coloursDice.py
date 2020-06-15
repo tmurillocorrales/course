@@ -20,5 +20,5 @@ def write_log_file(outputfilename, data):
 
 if __name__ == "__main__":
     outputfilename = "numbers"
-    roll = get_random_number(1, 50)
+    roll = get_random_number(1, 6)
     write_log_file(outputfilename, roll)
