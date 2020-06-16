@@ -22,6 +22,9 @@ def get_color_by_dice_roll(spots):
     colors = ["blue", "green", 'red', 'yellow', 'purple', 'orange']
     return colors[spots-1]
 
+def amazing_function_by_elsa():
+    pass
+
 
 if __name__ == "__main__":
     outputfilename = "randomNumber"
