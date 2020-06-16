@@ -36,7 +36,8 @@ for i in range(6):
 print(rollos)
 sys.stdout.flush()
 import matplotlib.pyplot as plt
-plt.bar(range(6),rollos)
+
+plt.barh(range(6),rolls)
 plt.show()
 
 
