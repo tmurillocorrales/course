@@ -40,6 +40,8 @@ import matplotlib.pyplot as plt
 plt.barh(range(6),rolls)
 plt.show()
 
+#June 16, 2020
+
 
 
 
