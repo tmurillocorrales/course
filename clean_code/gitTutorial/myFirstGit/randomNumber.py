@@ -29,14 +29,14 @@ if __name__ == "__main__":
     color = get_color_by_dice_roll(roll)
     write_log_file(outputfilename, color)
 
-rolls=[]
+rollos=[]
 for i in range(6):
     roll = get_random_number(1, 6)
-    rolls.append(roll)
-print(rolls)
+    rollos.append(roll)
+print(rollos)
 sys.stdout.flush()
 import matplotlib.pyplot as plt
-plt.bar(range(6),rolls)
+plt.bar(range(6),rollos)
 plt.show()
 
 
